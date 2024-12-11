@@ -11,7 +11,7 @@ fname={'22_2_nat1s_inf'}; %file corresponding to video
 
 % you need to update these manually too every time you do a new video
 subject=22; % ID number (first number above)
-visit=2; %visit number (second number above)
+visit=2; % visit number (second number above)
 chunk=1; % (play section number (third number bove)
 
 
@@ -120,7 +120,7 @@ ListenChar(0);
 
 FaceSourceRect=[FaceCoords(1)*h FaceCoords(2)*w FaceCoords(3)*h FaceCoords(4)*w];
       
-%Disable echoing keypresses to MATLAB
+% Disable echoing keypresses to MATLAB
 ListenChar(2);
 
         tic
