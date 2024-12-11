@@ -4,14 +4,14 @@
 MoviesDir= '/Users/Dean/BabyLab/coding_videos'; % directory to video files coding
 ResultsDir= '/Users/Dean/BabyLab/hand coding scripts'; % directory to where results will be saved
 ScriptsDir= '/Users/Dean/BabyLab/hand coding scripts'; % directory to where scripts are stored
-SyncPath='/Users/Dean/BabyLab/coding_videos/camera_sync.xlsx'; %directory to xlsx file with right and left camera LEDs
+SyncPath='/Users/Dean/BabyLab/coding_videos/camera_sync.xlsx'; % directory to xlsx file with right and left camera LEDs
 Syncs=xlsread(SyncPath);
 
-fname={'22_2_nat1s_inf'}; %file corresponding to video
+fname={'22_2_nat1s_inf'}; % file corresponding to video
 
 % you need to update these manually too every time you do a new video
 subject=22; % ID number (first number above)
-visit=2; %visit number (second number above)
+visit=2; % visit number (second number above)
 chunk=1; % (play section number (third number bove)
 
 
@@ -133,7 +133,7 @@ ListenChar(0);
 FaceSourceRect1=[FaceCoords1(1)*h1 FaceCoords1(2)*w1 FaceCoords1(3)*h1 FaceCoords1(4)*w1];
 FaceSourceRect2=[FaceCoords2(1)*h2 FaceCoords2(2)*w2 FaceCoords2(3)*h2 FaceCoords2(4)*w2];
 
-%Disable echoing keypresses to MATLAB
+% Disable echoing keypresses to MATLAB
 ListenChar(2);
 
 tic
