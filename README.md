@@ -6,7 +6,7 @@ These scripts can be used to code the gaze behaviours of caregivers and infants 
 
 •	Matlab\
 •	PsychToolbox\
-•	Gstreamer\
+•	Gstreamer
 
 
 ## User instructions 
