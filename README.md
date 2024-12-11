@@ -4,9 +4,9 @@ These scripts can be used to code the gaze behaviours of caregivers and infants 
 
 ## Requirements
 
-•	Matlab
-•	PsychToolbox
-•	Gstreamer
+•	Matlab\
+•	PsychToolbox\
+•	Gstreamer\
 
 
 ## User instructions 
@@ -18,7 +18,3 @@ The main scripts needed to run the hand coding are HandCoding_inf.m and HandCodi
 Before beginning coding, the user needs to input directories to the Scripts folder, including all main functions and subfunctions, the folder that the videos are located in and a folder for the results to be saved in. 
 
 When the user runs the scripts for each interaction for the first time, they will be asked to enter the name of the objects to be coded and they will need to select the location of the window for the zoomed-in image of the infant’s/Mum’s face.
-
-
-
-![image](https://github.com/user-attachments/assets/32692d80-39e8-4077-b367-022d07490499)
